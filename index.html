@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head >
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>touch the numbers</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body onload="onInit(9)">
+    <h1>Touch the Numbers</h1>
+    <div class="container">
+        <div class="main-bar">
+            <div class="timer">Timer 
+                <div class="time">00:00:000</div></div>
+            <div class="diffuclty">Diffuclty
+                <div class="rank">
+                    <button onclick="onInit(9)">9</button>
+                    <button onclick="onInit(16)">16</button>
+                    <button onclick="onInit(25)">25</button>
+                    <button onclick="onInit(64)">64</button>
+                </div>
+            </div>
+        </div>
+        <div class="next">Next Number: <span class="next-Num">1</span></div>
+        <table>
+        </table>
+        <button class="new-game" onclick="onInit()">new game</button>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
